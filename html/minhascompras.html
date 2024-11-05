@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compre Mais</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+
+    <div class="menu">
+
+        <div  class="logo">
+            <img src="../img/imgemLoja/logo.png" alt="">
+        </div>
+
+        <nav class="menuOpcoes">
+        
+            <a href="../html/index.html">Produtos</a>
+            <a href="../html/minhascompras.html">Minhas Compras</a>
+            <a href="../html/quemsomos.html">Quem Somos</a>
+            <a href="../html/ajuda.html">Ajuda</a>
+        </nav>
+
+    </div>
+    
+    <div class="minhascompras">
+        <h2>Minhas compras</h2>
+        <!-- Produtos do carrinho serão exibidos aqui -->
+    
+    </div>
+
+    <div id="opcoesPagamento" >
+        <h3>Escolha a forma de pagamento:</h3>
+        <label>
+            <input type="radio" name="pagamento" value="Pix" checked> Pix
+        </label>
+        <label>
+            <input type="radio" name="pagamento" value="Débito"> Débito
+        </label>
+        <label>
+            <input type="radio" name="pagamento" value="Crédito"> Crédito
+        </label>
+    </div>
+
+    <button class="comprar" onclick="comprar()">Comprar</button>
+
+
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
